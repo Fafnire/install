@@ -44,4 +44,8 @@ sudo -u $5 unzip sonarqube.zip -d /opt/sonarqube
 rm sonarqube.zip
 cd /opt/sonarqube/sonarqube-9.0.0.45539/bin/linux-x86-64
 sudo -u $5 ./sonar.sh console
+
+#Install trufflehog
+apt -y install python3 python3-pip
+pip3 install trufflehog
 return 0
