@@ -31,8 +31,8 @@ apt -y install terraform
 #Install azure-cli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
-#Install maven, unzip and jq
-apt -y install unzip maven jq
+#Install maven and unzip
+apt -y install unzip maven
 
 #Install sonarqube
 cd /home/$5
